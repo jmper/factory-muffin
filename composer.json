@@ -17,10 +17,16 @@
     "require": {
         "php": ">=5.4.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jmper/factory-muffin-faker"
+        }
+    ],
     "require-dev": {
         "doctrine/orm": "2.5.*",
         "illuminate/database": "5.0.*|5.1.*",
-        "jmper/factory-muffin-faker": "^2.0",
+        "league/factory-muffin-faker": "dev-master",
         "phpunit/phpunit": "^4.8|^5.0"
     },
     "replace": {
